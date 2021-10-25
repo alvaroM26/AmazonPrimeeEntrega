@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/fondo">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/titulo"
+        android:padding="5dp">
+    </ImageView>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0F171D"
+                android:textStyle="bold"
+                android:text="INICIO">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0F171D"
+                android:textStyle="bold"
+                android:text="ORIGINALS">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0F171D"
+                android:textStyle="bold"
+                android:text="SERIES">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0F171D"
+                android:textStyle="bold"
+                android:text="PELICULAS">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#0F171D"
+                android:textStyle="bold"
+                android:text="INFANTIL">
+            </Button>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@mipmap/cabecera"></ImageView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Series Amazon Originals y exclusivas">
+        </TextView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="202dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/Captura">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="201dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/cartel2">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="202dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/Captura">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="201dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/cartel2">
+                </ImageView>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Sigue viendo tus series tus series y peliculas">
+    </TextView>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="202dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/Captura">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="201dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/cartel2">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="202dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/Captura">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="201dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/cartel2">
+            </ImageView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:text="Peliculas recomendadas"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+        </TextView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="202dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/Captura">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="201dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/cartel2">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="202dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/Captura">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="201dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/cartel2">
+                </ImageView>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="Peliculas mejor valoradas en IMBb">
+        </TextView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="202dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/Captura">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="201dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/cartel2">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="202dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/Captura">
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="201dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/cartel2">
+                </ImageView>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
